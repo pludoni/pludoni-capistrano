@@ -16,4 +16,5 @@ Gem::Specification.new do |gem|
   gem.version       = Pludoni::Capistrano::VERSION
   gem.add_runtime_dependency "capistrano_colors"
   gem.add_runtime_dependency "capistrano"
+  gem.add_runtime_dependency "rvm-capistrano"
 end
